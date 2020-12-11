@@ -1,0 +1,41 @@
+﻿@model CapaEntities.Usuarios_ET
+@{
+    ViewBag.Title = "Agregar";
+    List<CapaEntities.Materia_ET> Materias = ViewBag.Materias;
+}
+
+<h2>Agregar</h2>
+
+@using (Html.BeginForm("Registro", "Home", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(p => p.Nombre)
+        @Html.TextBoxFor(p => p.Nombre, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(p => p.Apellido)
+        @Html.TextBoxFor(p => p.Apellido, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(p => p.Edad)
+        @Html.TextBoxFor(p => p.Edad, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Materia)
+        <select name="idMateria" class="form-control">
+            @foreach (var m in Materias)
+            {
+                <option  value="@m.idMateria">
+                    @m.Materia
+                </option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(p => p.Nota)
+        @Html.TextBoxFor(p => p.Nota, new { @class = "form-control", @type = "number" })
+    </div>
+    <div class="form-control">
+        <button type="submit">Registrar</button>
+    </div>
+}

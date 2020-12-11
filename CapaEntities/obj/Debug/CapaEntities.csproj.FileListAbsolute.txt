@@ -1,0 +1,6 @@
+C:\Users\julio\source\repos\4Capas-v2\CapaEntities\bin\Debug\CapaEntities.dll
+C:\Users\julio\source\repos\4Capas-v2\CapaEntities\bin\Debug\CapaEntities.pdb
+C:\Users\julio\source\repos\4Capas-v2\CapaEntities\obj\Debug\CapaEntities.csprojAssemblyReference.cache
+C:\Users\julio\source\repos\4Capas-v2\CapaEntities\obj\Debug\CapaEntities.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\4Capas-v2\CapaEntities\obj\Debug\CapaEntities.dll
+C:\Users\julio\source\repos\4Capas-v2\CapaEntities\obj\Debug\CapaEntities.pdb

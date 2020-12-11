@@ -1,0 +1,11 @@
+C:\Users\julio\source\repos\4Capas-v2\CapaBusinessLayer\bin\Debug\CapaBusinessLayer.dll
+C:\Users\julio\source\repos\4Capas-v2\CapaBusinessLayer\bin\Debug\CapaBusinessLayer.pdb
+C:\Users\julio\source\repos\4Capas-v2\CapaBusinessLayer\bin\Debug\CapaDataAccess.dll
+C:\Users\julio\source\repos\4Capas-v2\CapaBusinessLayer\bin\Debug\CapaEntities.dll
+C:\Users\julio\source\repos\4Capas-v2\CapaBusinessLayer\bin\Debug\CapaDataAccess.pdb
+C:\Users\julio\source\repos\4Capas-v2\CapaBusinessLayer\bin\Debug\CapaEntities.pdb
+C:\Users\julio\source\repos\4Capas-v2\CapaBusinessLayer\obj\Debug\CapaBusinessLayer.csprojAssemblyReference.cache
+C:\Users\julio\source\repos\4Capas-v2\CapaBusinessLayer\obj\Debug\CapaBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\4Capas-v2\CapaBusinessLayer\obj\Debug\CapaBusinessLayer.csproj.CopyComplete
+C:\Users\julio\source\repos\4Capas-v2\CapaBusinessLayer\obj\Debug\CapaBusinessLayer.dll
+C:\Users\julio\source\repos\4Capas-v2\CapaBusinessLayer\obj\Debug\CapaBusinessLayer.pdb

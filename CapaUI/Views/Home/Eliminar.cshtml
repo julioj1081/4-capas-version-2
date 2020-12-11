@@ -1,0 +1,42 @@
+﻿@model CapaEntities.Usuarios_ET
+@{ 
+    ViewBag.Title = "Eliminar";
+    List<CapaEntities.Materia_ET> Materias = ViewBag.Materias;
+}
+
+<h2>Eliminar</h2>
+
+<div class="container">
+    @Html.HiddenFor(model => model.idUsuario)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Nombre)
+        @Html.DisplayFor(model => model.Nombre)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Apellido)
+        @Html.DisplayFor(model => model.Apellido)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Edad)
+        @Html.DisplayFor(model => model.Edad)
+    </div>
+    <div class="form-group" >
+        @Html.LabelFor(model => model.Materia)
+        <select name="Grupo_id"  disabled>
+            @foreach (var r in Materias)
+            {
+                <option @(r.idMateria == Model.idMateria ? "selected" : "") value="@r.idMateria">@r.Materia</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Nota)
+        @Html.DisplayFor(model => model.Nota)
+    </div>
+
+    <div class="form-group">
+        <a class="btn btn-danger" onclick="return confirm('¿Estas seguro de eliminar este Usuario?');") href="~/Home/Eliminar_Usuario/@Model.idUsuario">Eliminar</a>
+    </div>
+</div>
+

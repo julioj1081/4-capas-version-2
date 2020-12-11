@@ -1,0 +1,9 @@
+C:\Users\julio\source\repos\4Capas-v2\CapaDataAccess\bin\Debug\CapaDataAccess.dll
+C:\Users\julio\source\repos\4Capas-v2\CapaDataAccess\bin\Debug\CapaDataAccess.pdb
+C:\Users\julio\source\repos\4Capas-v2\CapaDataAccess\bin\Debug\CapaEntities.dll
+C:\Users\julio\source\repos\4Capas-v2\CapaDataAccess\bin\Debug\CapaEntities.pdb
+C:\Users\julio\source\repos\4Capas-v2\CapaDataAccess\obj\Debug\CapaDataAccess.csprojAssemblyReference.cache
+C:\Users\julio\source\repos\4Capas-v2\CapaDataAccess\obj\Debug\CapaDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\4Capas-v2\CapaDataAccess\obj\Debug\CapaDataAccess.csproj.CopyComplete
+C:\Users\julio\source\repos\4Capas-v2\CapaDataAccess\obj\Debug\CapaDataAccess.dll
+C:\Users\julio\source\repos\4Capas-v2\CapaDataAccess\obj\Debug\CapaDataAccess.pdb

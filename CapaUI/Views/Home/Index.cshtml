@@ -1,0 +1,44 @@
+﻿@model List<CapaEntities.Usuarios_ET>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <h1>Usuarios</h1>
+    <a style="float: right;" class="btn btn-primary" href="~/Home/Agregar">Ingresar Alumno</a>
+</div>
+<div class="row">
+    
+    
+    <div class="container">
+
+        <table class="table table-bordered table-hover table-responsive">
+            <tr>
+                <td>Id</td>
+                <td>Nombre</td>
+                <td>Apellido</td>
+                <td>Edad</td>
+                <td>Matera</td>
+                <td>Nota</td>
+                <td>Operaciones</td>
+            </tr>
+            <tbody>
+                @foreach(var u in Model)
+                {
+                <tr>
+                    <td>@u.idUsuario</td>
+                    <td>@u.Nombre</td>
+                    <td>@u.Apellido</td>
+                    <td>@u.Edad</td>
+                    <td>@u.Materia.Materia</td>
+                    <td>@u.Nota</td>
+                    <td>
+                        <a class="btn btn-warning glyphicon glyphicon-edit" href="~/Home/Editar/@u.idUsuario"></a>
+                        <a class="btn btn-danger glyphicon glyphicon-warning-sign" href="~/Home/Eliminar/@u.idUsuario"></a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
